@@ -1,0 +1,173 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "LASlib/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "LASlib/src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "LAStools",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "LASlib::@0a31f1e4ac96296bc540",
+					"jsonFile" : "target-LASlib-Debug-6bd40f41471ada2299ed.json",
+					"name" : "LASlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "las2las::@145eef247bfb46b6828c",
+					"jsonFile" : "target-las2las-Debug-9a73bc314da53d707774.json",
+					"name" : "las2las",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "las2txt::@145eef247bfb46b6828c",
+					"jsonFile" : "target-las2txt-Debug-6c7465f47a4f45df1606.json",
+					"name" : "las2txt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lasdiff::@145eef247bfb46b6828c",
+					"jsonFile" : "target-lasdiff-Debug-567563ed472eb97fbb22.json",
+					"name" : "lasdiff",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lasindex::@145eef247bfb46b6828c",
+					"jsonFile" : "target-lasindex-Debug-8de991264bf9a9e68dbf.json",
+					"name" : "lasindex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lasinfo::@145eef247bfb46b6828c",
+					"jsonFile" : "target-lasinfo-Debug-b71e738a747bc7d8d84d.json",
+					"name" : "lasinfo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lasmerge::@145eef247bfb46b6828c",
+					"jsonFile" : "target-lasmerge-Debug-8c1d954db66f0dce3463.json",
+					"name" : "lasmerge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lasprecision::@145eef247bfb46b6828c",
+					"jsonFile" : "target-lasprecision-Debug-c87c6db8fcc6841eab3a.json",
+					"name" : "lasprecision",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "laszip::@145eef247bfb46b6828c",
+					"jsonFile" : "target-laszip-Debug-12a143cb096823466b31.json",
+					"name" : "laszip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "txt2las::@145eef247bfb46b6828c",
+					"jsonFile" : "target-txt2las-Debug-e72ef05b542940393822.json",
+					"name" : "txt2las",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/GIT-local/LAStools/out/build/x64-Debug",
+		"source" : "D:/GIT-local/LAStools"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
